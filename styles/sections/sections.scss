@@ -2,6 +2,7 @@ body{
     background-color: #0F172A;
     font-family: "Roboto",sans-serif;
     color: #fff;
+    margin: 0;
     .presentation{
         .pres-div{
             display: flex;
@@ -45,7 +46,7 @@ body{
                     align-items: center;
                     border-radius: 8px;
                     border: 1px solid #6366F1;
-                    background: #6366F1;
+                    background: #4F46E5;
                     font-size: 20px;
                     font-weight: 500;
                     line-height: 24px;
@@ -278,11 +279,12 @@ body{
                 }
             }
             .btn-manage{
-                padding: 10px 24px;
+                padding: 16px 32px;
                 border-radius: 8px;
                 border:1px solid #6366F1;
                 color: #fff;
                 background: #4F46E5;
+                cursor: pointer;
             }
         }
     }
@@ -321,6 +323,7 @@ body{
                 font-size: 20px;
                 line-height: 24px;
                 font-weight: 500;
+                cursor: pointer;
             }
         }
     }
@@ -363,6 +366,7 @@ body{
                 font-size: 20px;
                 font-weight: 500;
                 line-height: 24px;
+                cursor: pointer;
             }
         }
     }
@@ -385,6 +389,29 @@ body{
                 font-size: 18px;
                 font-weight: 400;
                 line-height: 160%;
+                margin-top: 0;
+            }
+        }
+        .swiper-navigation{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 50px;
+            margin: 80px 0;
+            .swiper-navigation-prev{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+            }
+            .swiper-navigation-next{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
             }
         }
         .swiper{
@@ -431,6 +458,127 @@ body{
                 }
             }
         }
+        .end-comments{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .h1-end{
+                font-size: 56px;
+                font-weight: 800;
+                line-height: 110%;
+                text-align: center;
+                .purple-end{
+                    color: #818CF8;
+                }
+            }
+            .p-end{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 160%;
+                margin-top: 0;
+            }
+            .btn-end{
+                display: flex;
+                gap: 16px;
+                .start-end-btn{
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 500;
+                    border-radius: 8px;
+                    background: #4F46E5;
+                    border: 1px solid #6366F1;
+                    color: #fff;
+                    padding: 10px 46px;
+                    cursor: pointer;
+                    letter-spacing: 0.5px;
+                }
+                .more-info-end{
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 500;
+                    border-radius: 8px;
+                    background: #475569;
+                    border: 1px solid #334155;
+                    color: #fff;
+                    padding: 10px 46px;
+                    cursor: pointer;
+                    letter-spacing: 0.5px;
+                }
+            }
+        }
     }
+    footer{
+        background-color: #334155;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .footer{
+            display: flex;
+            gap: 48px;
+            flex-direction: column;
+            .footer-other{
+                display: flex;
+                flex-direction: row;
+                gap: 32px;
+                .terms{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 32px;
+                    margin-right: 170px;
+                }
+                .social{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 16px;
+                }
+                .apps{
+                    gap: 16px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .footer-navs{
+                display: flex;
+                flex-direction: row;
+                gap: 108px;
+                .footer-nav{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 42px;
+                    gap: 24px;
+                    .footer-category{
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 110%;
+                        margin: 0;
+                    }
+                    .footer-a-nav{
+                            text-decoration: none;
+                            color: #E2E8F0;
+                            font-size: 16px;
+                            line-height: 140%;
+                            font-weight: 400;
+                            display: flex;
+                            .beta{
+                                background: #E0E7FF;
+                                padding: 1px 8px;
+                                text-align: center;
+                                display: flex;
+                                align-items: center;
+                                margin-left: 8px;
+                                border-radius: 4px;
+                                font-size: 12px;
+                                color: #3730A3;
+                                font-weight: 400;
+                                line-height: 140%;
+                            }
+                        }
+                }
+            }
+        }
+    }
+
     
 }

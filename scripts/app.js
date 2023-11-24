@@ -17,8 +17,8 @@ const swiper = new Swiper('.swiper', {
         disableOnInteraction: false,
     },
     navigation:{
-        nextEl:'.swiper-button-next',
-        prevEl:'.swiper-button-prev',
+        nextEl:'.swiper-navigation-next',
+        prevEl:'.swiper-navigation-prev',
     },
     
 })
