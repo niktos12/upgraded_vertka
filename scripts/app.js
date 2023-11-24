@@ -1,11 +1,24 @@
-// import Swiper from 'swiper';
 const swiper = new Swiper('.swiper', {
     spaceBetween:24,
     slidesPerView: 3,
-    loop:true,
-    width: 500,
-    pagination:{
-        el:'.swiper-pagination',
-        clickable:true,
-    }
+    direction:'horizontal',
+    // loopedSlides: 1,
+    loopFillGroupWithBlank: true,
+    slidesPerGroup: 1,
+    loop: true,
+    speed:1200,
+    grabCursor: true,
+    centeredSlides: true,
+    mousewheel: true,
+    width: 1000,
+    
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    navigation:{
+        nextEl:'.swiper-button-next',
+        prevEl:'.swiper-button-prev',
+    },
+    
 })

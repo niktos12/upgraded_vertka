@@ -10,8 +10,9 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./scripts/app.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="./scripts/app.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="./styles/main.css" rel="stylesheet"> 
 </head>
@@ -153,6 +154,17 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
+                    <img src="./imgs/kontrastr.png" class="logo-comment">
+                    <p class="comment">Amet morbi enim sodales quis dui, in habitant pharetra. Risus id fringilla sed adipiscing volutpat sit varius turpis. Sed pretium semper rhoncus, tellus semper.</p>
+                    <div class="commentor">
+                        <img class="avatar" src="./imgs/user-4.png">
+                        <div class="avtor">
+                            <p class="name">Olga Voros</p>
+                            <p class="job">Frontend Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
                     <img src="./imgs/zoomerr-logo.png" class="logo-comment">
                     <p class="comment">Non risus viverra enim, quis. Eget vitae arcu vivamus sit tellus, viverra turpis lorem. Varius a turpis urna id porttitor.</p>
                     <div class="commentor">
@@ -185,7 +197,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-slide">
+                    <img src="./imgs/waves.png" class="logo-comment">
+                    <p class="comment">Magna egestas aliquet ut integer non. Sed diam enim nibh sit. Aliquam laoreet aenean metus nibh eu scelerisque.</p>
+                    <div class="commentor">
+                        <img src="./imgs/user-4.png" class="avatar">
+                        <div class="avtor">
+                            <p class="name">Vaneta Ivanova</p>
+                            <p class="job">Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-button-prev">Prev</div> -->
+                <!-- <div class="swiper-button-next">Next</div> -->
             </div>
         </div>
     </section>

@@ -442,8 +442,12 @@ body .friends .text-friends .p-friends {
   font-weight: 400;
   line-height: 160%;
 }
-body .friends .swiper .swiper-wrapper {
-  gap: 16px;
+body .friends .swiper {
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
 }
 body .friends .swiper .swiper-wrapper .swiper-slide {
   display: flex;
@@ -454,7 +458,7 @@ body .friends .swiper .swiper-wrapper .swiper-slide {
   border-radius: 20px;
   border: 1px solid #475569;
   background: #334155;
-  width: 250px;
+  width: 325px;
 }
 body .friends .swiper .swiper-wrapper .swiper-slide .comment {
   max-width: 320px;
