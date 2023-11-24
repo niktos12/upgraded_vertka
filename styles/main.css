@@ -293,7 +293,6 @@ body .tools .desc-tools .ul-tools {
 }
 body .tools .desc-tools .ul-tools .li-tools {
   list-style-image: url(../imgs/check.png);
-  margin-top: 0px;
   align-items: center;
   justify-content: center;
 }
@@ -309,6 +308,172 @@ body .tools .desc-tools .btn-tools {
   font-weight: 500;
   font-size: 20px;
   cursor: pointer;
+}
+body .management {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0;
+}
+body .management .desc-management .h1-manage {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 110%;
+}
+body .management .desc-management .h1-manage .purple-management {
+  color: #818CF8;
+}
+body .management .desc-management .p-manage {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+body .management .desc-management .ul-manage .li-manage {
+  list-style-image: url(../imgs/check.png);
+}
+body .management .desc-management .btn-manage {
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 1px solid #6366F1;
+  color: #fff;
+  background: #4F46E5;
+}
+body .graphic-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0;
+}
+body .graphic-div .graphic {
+  display: flex;
+  padding: 64px 0 64px 64px;
+  border-radius: 20px;
+  border: 1px solid #475569;
+  flex-direction: row;
+  gap: 20px;
+}
+body .graphic-div .graphic .graphic-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+body .graphic-div .graphic .graphic-text .graphic-h2 {
+  font-size: 32px;
+  line-height: 110%;
+  font-weight: 700;
+}
+body .graphic-div .graphic .graphic-text .graphic-p {
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+}
+body .graphic-div .graphic .graphic-text .graphic-btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1px solid #475569;
+  background: #334155;
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+body .control {
+  display: flex;
+  flex-direction: row;
+  background-color: #1E293E;
+  padding: 80px 0px 0px 80px;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+body .control .text-control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -100px;
+}
+body .control .text-control .h1-control {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 110%;
+  margin-top: 0;
+}
+body .control .text-control .h1-control .purple-control {
+  color: #818CF8;
+}
+body .control .text-control .p-control {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 0;
+}
+body .control .text-control .btn-control {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1px solid #6366F1;
+  background: #4F46E5;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+body .friends {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  align-items: center;
+}
+body .friends .text-friends {
+  text-align: center;
+}
+body .friends .text-friends .h1-friends {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 110%;
+}
+body .friends .text-friends .h1-friends .purple-friends {
+  color: #818CF8;
+}
+body .friends .text-friends .p-friends {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+body .friends .swiper .swiper-wrapper {
+  gap: 16px;
+}
+body .friends .swiper .swiper-wrapper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid #475569;
+  background: #334155;
+  width: 250px;
+}
+body .friends .swiper .swiper-wrapper .swiper-slide .comment {
+  max-width: 320px;
+}
+body .friends .swiper .swiper-wrapper .swiper-slide .commentor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+body .friends .swiper .swiper-wrapper .swiper-slide .commentor .avtor {
+  display: flex;
+  flex-direction: column;
+}
+body .friends .swiper .swiper-wrapper .swiper-slide .commentor .avtor .name {
+  margin: 0;
+}
+body .friends .swiper .swiper-wrapper .swiper-slide .commentor .avtor .job {
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
