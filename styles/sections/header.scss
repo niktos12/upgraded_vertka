@@ -1,0 +1,38 @@
+header{
+    .header{
+        gap: 202px;
+        display: flex;
+        padding: 24px 80px;
+        align-items: center;
+        justify-content: center;
+        .a-navs{
+            gap: 16px;
+            display: flex;
+            flex-direction: row;
+            .a-nav{
+                text-decoration: none;
+                font-family: 'Roboto',sans-serif;
+                color: #fff;
+            }
+        }
+        .btn-menu{
+            gap: 16px;
+            display: flex;
+            align-items: center;
+            .login{
+                text-decoration: none;
+                color: #fff;
+            }
+            .btn-info{
+                border-radius: 8px;
+                background: #334155;
+                border: 1px solid #334155;
+                color: #fff;
+                padding: 12px 22px;
+                display: flex;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+    }
+}

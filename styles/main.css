@@ -1,0 +1,314 @@
+:root {
+  --container: 1400px;
+}
+@media (max-width: 1365px) {
+  :root {
+    --container: 1400px;
+  }
+}
+@media (max-width: 1023px) {
+  :root {
+    --container: 1240px;
+  }
+}
+@media (max-width: 767px) {
+  :root {
+    --container: 880px;
+  }
+}
+@media (max-width: 424px) {
+  :root {
+    --container: 375px;
+  }
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+header .header {
+  gap: 202px;
+  display: flex;
+  padding: 24px 80px;
+  align-items: center;
+  justify-content: center;
+}
+header .header .a-navs {
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+}
+header .header .a-navs .a-nav {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+header .header .btn-menu {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+header .header .btn-menu .login {
+  text-decoration: none;
+  color: #fff;
+}
+header .header .btn-menu .btn-info {
+  border-radius: 8px;
+  background: #334155;
+  border: 1px solid #334155;
+  color: #fff;
+  padding: 12px 22px;
+  display: flex;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+body {
+  background-color: #0F172A;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+body .presentation .pres-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .presentation .pres-div .progress-p {
+  color: #818CF8;
+  font-weight: 500;
+  text-align: center;
+  line-height: 110%;
+  font-size: 20px;
+}
+body .presentation .pres-div .shapes {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+body .presentation .pres-div .progress-h2 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 110%;
+  text-align: center;
+  margin: 0;
+}
+body .presentation .pres-div .desc-pres-p {
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  margin: 32px 0;
+}
+body .presentation .pres-div .btns-pres {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+body .presentation .pres-div .btns-pres .start {
+  display: flex;
+  padding: 10px 46px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #6366F1;
+  background: #6366F1;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+body .presentation .pres-div .btns-pres .more-info-pres {
+  display: flex;
+  padding: 10px 46px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #334155;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+body .presentation .partners .partners-h2 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 110%;
+  font-weight: 700;
+}
+body .presentation .partners .partners-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 80px 0;
+}
+body .projects {
+  justify-content: center;
+  align-items: center;
+}
+body .projects .project-desc {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .projects .project-desc .project-h1 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 110%;
+  text-align: center;
+}
+body .projects .project-desc .project-h1 .purple-h1 {
+  color: #818CF8;
+  text-align: center;
+}
+body .projects .project-desc .project-p {
+  font-size: 18px;
+  line-height: 160%;
+}
+body .projects .desc-project {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+body .projects .desc-project .desc {
+  justify-content: center;
+  align-items: center;
+}
+body .projects .desc-project .desc .desc-project-h2 {
+  font-size: 48px;
+  line-height: 110%;
+  font-weight: 800;
+  margin: 0 0 32px 0;
+}
+body .projects .desc-project .desc .desc-project-h2 .purpled {
+  color: #818CF8;
+}
+body .projects .desc-project .desc .desc-project-p {
+  font-size: 18px;
+  line-height: 160%;
+  max-width: 600px;
+}
+body .projects .desc-project .imgs-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+body .projects .desc-project .imgs-desc .pictures-row-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+body .projects .desc-project .imgs-desc .pictures-row-1 .picture-1 {
+  margin-bottom: -30px;
+}
+body .projects .desc-project .imgs-desc .pictures-row-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: -50px;
+}
+body .projects .desc-project .imgs-desc .pictures-row-2 .picture-3 {
+  margin-bottom: -30px;
+}
+body .example {
+  justify-content: center;
+  align-items: center;
+}
+body .example .example-desc {
+  padding: 80px 80px 387px 80px;
+  background: #4F46E5;
+}
+body .example .example-desc .example-desc-h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 110%;
+}
+body .example .example-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .example .example-pic .img-example {
+  justify-self: center;
+  display: flex;
+  margin-top: -320px;
+}
+body .tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 0;
+}
+body .tools .imgs-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .tools .imgs-tools .solo-row-pic .pic-tools-1 {
+  max-height: 288px;
+  margin-left: -200px;
+  max-width: 485px;
+}
+body .tools .imgs-tools .row-pic {
+  flex-direction: row;
+  display: flex;
+}
+body .tools .imgs-tools .row-pic .pic-tools-2 {
+  margin-left: -130px;
+  max-height: 288px;
+  margin-top: -10px;
+}
+body .tools .imgs-tools .row-pic .pic-tools-3 {
+  max-height: 243px;
+}
+body .tools .desc-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body .tools .desc-tools .h1-tools {
+  font-size: 48px;
+  line-height: 110%;
+  font-weight: 800;
+}
+body .tools .desc-tools .h1-tools .purple-tools {
+  color: #818CF8;
+}
+body .tools .desc-tools .p-tools {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  max-width: 600px;
+}
+body .tools .desc-tools .ul-tools {
+  align-items: center;
+  justify-content: center;
+}
+body .tools .desc-tools .ul-tools .li-tools {
+  list-style-image: url(../imgs/check.png);
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
+}
+body .tools .desc-tools .btn-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 26px;
+  border-radius: 8px;
+  border: 1px solid #6366F1;
+  background: #4F46E5;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
