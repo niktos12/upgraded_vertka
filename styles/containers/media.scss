@@ -15,6 +15,36 @@
         @content
     }
 };
+@mixin finalSwiper(){
+    @media (max-width:$breakpoint_for_swiper_final){
+        @content
+    }
+};
+@mixin swiperAdaptive(){
+    @media (max-width:$breakpoint_for_swiper){
+        @content
+    }
+};
+@mixin swiperSecond(){
+    @media (max-width:$breakpoint_for_swiper_second){
+        @content
+    }
+};
+@mixin aller(){
+    @media (max-width:$breakpoint_for_all){
+        @content
+    }
+};
+@mixin pictures(){
+    @media (max-width: $breakpoint_for_pictures){
+        @content
+    }
+};
+@mixin footerAdaptive(){
+    @media (max-width: $breakpoint_for_footer){
+        @content
+    }
+};
 @mixin adaptiveCards(){
     @media (max-width: $breakpoint_for_adaptive_cards){
         @content

@@ -5,20 +5,64 @@ header{
         padding: 24px 80px;
         align-items: center;
         justify-content: center;
+        @include smallLaptop(){
+            gap: 150px;
+        }
+        @include pictures(){
+            gap: 100px;
+        }
+        @include footerAdaptive(){
+            gap: 50px;
+        }
+        .logo{
+            cursor: pointer;
+            @include footerAdaptive(){
+                width: 20%;
+            }
+            @include aller(){
+                width: 60%;
+            }
+            @include finalSwiper(){
+                width: 100%;
+            }
+        }
         .a-navs{
             gap: 16px;
             display: flex;
             flex-direction: row;
+            @include aller(){
+                display: none;
+            }
             .a-nav{
                 text-decoration: none;
                 font-family: 'Roboto',sans-serif;
                 color: #fff;
             }
         }
+        
+        .menu-icon{
+            display: none;
+            transition: .5s ease;
+            @include swiperAdaptive(){
+                display: flex;
+                border-radius: 8px;
+                border: 1px solid  #475569;
+                background: #334155;
+                padding: 12px;
+                cursor: pointer;
+            }
+        }
+        .menu-icon:hover{
+            border-radius: 18px;
+            background: #4F46E5;
+        }
         .btn-menu{
             gap: 16px;
             display: flex;
             align-items: center;
+            @include swiperAdaptive(){
+                display: none;
+            }
             .login{
                 text-decoration: none;
                 color: #fff;
@@ -32,6 +76,10 @@ header{
                 display: flex;
                 font-weight: 500;
                 cursor: pointer;
+                transition: .5s ease;
+            }
+            .btn-info:hover{
+                background: #4F46E5;
             }
         }
     }
