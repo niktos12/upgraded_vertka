@@ -44,3 +44,11 @@ const swiper = new Swiper('.swiper', {
     },
     
 })
+window.onscroll = function(){
+    const header = document.getElementById('sticky-header');
+    if(window.pageYOffset > 0){
+        header.style.backgroundColor = '#475569';
+    }else{
+        header.style.backgroundColor = 'transparent';
+    }
+}
