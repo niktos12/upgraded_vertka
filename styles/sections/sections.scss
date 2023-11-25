@@ -752,7 +752,7 @@ body{
             }
         }
         .swiper{
-            max-width: 1280px;
+            max-width: 1080px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -779,7 +779,8 @@ body{
                     border-radius: 20px;
                     border: 1px solid #475569;
                     background: #334155;
-                    max-width: 325px;
+                    max-width: 330px;
+                    user-select: none;
                     @include smallLaptop(){
                         max-width: 250px;
                     }

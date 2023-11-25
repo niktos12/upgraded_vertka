@@ -1036,7 +1036,7 @@ body .friends .swiper-navigation .swiper-navigation-next {
   cursor: pointer;
 }
 body .friends .swiper {
-  max-width: 1280px;
+  max-width: 1080px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1071,7 +1071,8 @@ body .friends .swiper .swiper-wrapper .swiper-slide {
   border-radius: 20px;
   border: 1px solid #475569;
   background: #334155;
-  max-width: 325px;
+  max-width: 330px;
+  user-select: none;
 }
 @media (max-width: 1373px) {
   body .friends .swiper .swiper-wrapper .swiper-slide {
